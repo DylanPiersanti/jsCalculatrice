@@ -1,0 +1,59 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+td {
+    border: 1px dotted #9badb0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.resultCase {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+
+.calcButtons {
+    width: 100%;
+    height: 495px;
+}
+
+.calcButtons tr td {
+    text-align: center;
+    width: 80px;
+}
+
+.equalButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    width: 127px;
+}
+
+.equalButton tr td {
+    text-align: center;
+    background-color: #5cccdb;
+}
+
+.resultCase span {
+    margin-right: 15px;
+    font-size: 2rem;
+}
+
+.whiteBtn {
+    background-color: #fff;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 20px;
+}
